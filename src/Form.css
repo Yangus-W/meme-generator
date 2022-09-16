@@ -25,10 +25,11 @@
     width: 100%;
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     border-radius: 5px;
-    border-style: hidden;
+    border: none;
     color: #FFFFFF;
     padding: 10px;
     font-family: 'karla', sans-serif;
     margin-top: 15px;
     letter-spacing: -0.1em;
+    cursor: pointer;
 }
