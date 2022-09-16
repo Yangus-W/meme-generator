@@ -1,8 +1,11 @@
 import './App.css';
+import Header from './Header'
 
 function App() {
   return (
-    <h1>sanity check</h1>
+    <div>
+      <Header />
+    </div>
   );
 }
 
