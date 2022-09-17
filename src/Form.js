@@ -1,8 +1,12 @@
 import "./Form.css"
 
 function Form() {
+function handleClick() {
+    console.log("I was clicked!")
+}
+
     return (
-        <form className="form">
+        <div className="form">
             <div className="form--input">
                 <input 
                     className="form--input_child" 
@@ -15,8 +19,8 @@ function Form() {
                     placeholder="Bottom text"
                 />
             </div>
-            <button className="form--button">Get a new meme image 🖼</button>
-        </form>
+            <button onClick={handleClick} className="form--button">Get a new meme image 🖼</button>
+        </div>
     )
 }
 
